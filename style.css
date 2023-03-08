@@ -1,0 +1,87 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.mainSection {
+    background-image: url(img/img_1.jpg);
+    min-height: 100%;
+}
+
+.image {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.thirdSection {
+    background-image: url(img/img_2.jpg);
+    min-height: 70%;
+}
+
+.fourthSection {
+    background-image: url(img/img_3.jpg);
+    min-height: 80%;
+}
+
+.fifthSection {
+    background-image: url(img/img_4.png);
+    min-height: 100%;
+}
+
+.firstDiv {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.firstDivText {
+    background: rgb(33, 245, 192);
+    padding: 2%;
+}
+
+.secondSection {
+    padding: 3%;
+    text-align: center;
+    background: rgb(43, 43, 43);
+    color: rgb(235, 235, 235);
+}
+
+.secondSection h1 {
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+
+}
+
+.uchiha {
+    background: rgba(155, 2, 2, 0.555);
+    color: rgb(226, 226, 226);
+}
+
+.akatsuki {
+    background: linear-gradient(135deg, white 50%, rgb(170, 2, 2) 50%);
+}
+
+.blur {
+    background: rgba(255, 0, 128, 0.37);
+    color: white;
+}
+
+.missionAkatsuki {
+    background: rgba(0, 138, 156, 0.616);
+    color: white;
+}
